@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+*.un~
+dist
+bin/published.js
+
+# dotenv environment variables file
+.env
+
+# secrets
+.contentful.json
+.env*
+!.env.example
+
+# starters and examples folder
+examples
+starters
+test-builds
+!scripts/*/*
